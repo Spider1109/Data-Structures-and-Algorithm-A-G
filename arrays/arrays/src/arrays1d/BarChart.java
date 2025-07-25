@@ -36,7 +36,7 @@ public class BarChart {
 	    
 	    // Print each bar
 	    for (int i = max; i > 0; i--) {
-	       for(int j = 0 ; j<arr.length; i++) {
+	       for(int j = 0 ; j<arr.length; j++) {
 	    	   if(arr[j]> i) {
 	    		   System.out.print("*\t");
 	    	   }
